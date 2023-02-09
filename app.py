@@ -7,13 +7,13 @@ import numpy as np
 import requests
 import urllib.request
 import base64
-import image_stitching
+import helper.image_stitching as image_stitching
 from PIL import Image
 import fitz
 import io 
 from base64 import encodebytes
 from PIL import Image
-from script import script
+from helper.script import script
 
 
 app = Flask(__name__)
