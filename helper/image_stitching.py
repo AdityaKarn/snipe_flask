@@ -5,8 +5,8 @@ import os
 def stitch(iter, total_pages):
     images_list = []
 
-    l = (iter)*50
-    r = min(l+50, total_pages)
+    l = (iter)*5
+    r = min(l+5, total_pages)
 
     print(l, r)
     #RESIZING
